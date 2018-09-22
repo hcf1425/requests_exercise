@@ -12,6 +12,7 @@ response = requests.get(url)
 
 # 打印响应内容
 print(response.text)
+print(response.encoding)
 
 
 
